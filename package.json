@@ -1,0 +1,28 @@
+{
+  "name": "js-promises",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build index.html --public-url /JS-Promises/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LizakKhona/JS-Promises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LizakKhona/JS-Promises/issues"
+  },
+  "homepage": "https://LizakKhona.github.io/JS-Promises/",
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
